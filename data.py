@@ -68,6 +68,7 @@ Length of credit history (15%)
 New credit (10%)
 Credit mix (10%)
 '''
+# change
 
 
 
@@ -75,9 +76,9 @@ Credit mix (10%)
 
 
 
-print(df_filtered.head())
+#print(df_filtered.head())
 
 # Save the cleaned and processed dataset
-# df_filtered.to_csv("datasetWithEad.csv", index=False)
+df_filtered.to_csv("datasetWithEad.csv", index=False)
 
 # print("Filtered dataset with EAD saved as datasetNormalCCFEAD.csv")
