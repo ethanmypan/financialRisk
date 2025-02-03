@@ -70,3 +70,4 @@ plt.xlabel("Feature Importance Score")
 plt.ylabel("Features")
 plt.title("Feature Importance in Random Forest Model")
 plt.show()
+
