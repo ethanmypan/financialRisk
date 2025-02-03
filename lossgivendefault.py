@@ -5,7 +5,7 @@ import numpy as np
 # recovery rate is (total amount repaid/ total balance of loan) * 100
 #total amount repaid = amt_annuity 
 #total amount credit  = amt _credit
-df = pd.read_csv("datasetNormalCCFEAD.csv")
+df = pd.read_csv("datasetWithEad.csv")
 df["LGD"] = 1-((df['amt_credit'] - df['amt_annuity'])/ df["EAD_With_Normal_CCF"]) 
 
 #spliting into training 
